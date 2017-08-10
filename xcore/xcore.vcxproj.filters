@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="luv">
+      <UniqueIdentifier>{537765cb-9648-4ae6-91d1-de9f56391866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{22b4a449-caaf-4fa9-b8f1-c57e7caefb67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deps\lua\lapi.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lauxlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lbaselib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lbitlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lcode.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lcorolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lctype.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\ldblib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\ldebug.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\ldo.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\ldump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lfunc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lgc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\linit.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\liolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\llex.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lmathlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lmem.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\loadlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lobject.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lopcodes.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\loslib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lparser.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lstate.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lstring.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lstrlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\ltable.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\ltablib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\ltm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lundump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lutf8lib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lvm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\lua\lzio.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_async.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_check.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_constants.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_dns.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_fs.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_fs_event.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_fs_poll.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_handle.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_idle.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_lhandle.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_loop.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_misc.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_pipe.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_poll.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_prepare.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_process.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_req.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_signal.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_stream.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_tcp.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_timer.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_tty.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_udp.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="luv\luv_util.c">
+      <Filter>luv</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lengine.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lminiz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deps\lua\lapi.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lauxlib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lcode.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lctype.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\ldebug.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\ldo.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lfunc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lgc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\llex.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\llimits.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lmem.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lobject.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lopcodes.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lparser.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lprefix.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lstate.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lstring.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\ltable.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\ltm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lua.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\luaconf.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lualib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lundump.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lvm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\lua\lzio.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_async.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_check.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_constants.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_dns.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_fs.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_fs_event.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_fs_poll.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_handle.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_idle.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_lhandle.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_loop.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_misc.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_pipe.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_poll.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_prepare.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_process.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_req.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_signal.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_stream.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_tcp.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_timer.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_tty.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_udp.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="luv\luv_util.h">
+      <Filter>luv</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lengine.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lminiz.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\miniz.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="deps\lua\Makefile">
+      <Filter>lua</Filter>
+    </None>
+  </ItemGroup>
+</Project>

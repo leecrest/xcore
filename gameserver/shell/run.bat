@@ -1,0 +1,1 @@
+xcore.exe account\main.lua
